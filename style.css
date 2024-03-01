@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif; /* Specify the font you want to use */
+    font-size: 16px; /* Change the font size as desired */
+}
+
+/* Apply specific font and font size to headers */
+h1, h2, h3 {
+    font-family: Arial, sans-serif; /* Specify the font you want to use */
+    font-size: 24px; /* Change the font size as desired */
+}
+
+/* Apply specific font and font size to all other text */
+p, a, label, select, th, td {
+    font-family: Arial, sans-serif; /* Specify the font you want to use */
+    font-size: 16px; /* Change the font size as desired */
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+  }
+
+h2 {
+    text-align: center;
+}
+  
+  h3 {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .poverty-color {
+    background-color: #FFD700;
+  }
+  
+  .income-color {
+    background-color: #4CAF50;
+  }
+  
+  .education-color {
+    background-color: #FF5733;
+  }
+  
+  .air-quality-color {
+    background-color: #ADD8E6;
+  }
+  
+  .park-access-color {
+    background-color: #367d3e;
+  }
+  
+  .inactive-color {
+    background-color: #FFC0CB;
+  }
+  
+  .smoking-color{
+  background-color: #D3D3D3;
+}
+
+.urban-rural-color {
+  background-color: #FFFFE0;
+}
+
+.elderly-color {
+  background-color: #E6E6FA;
+}
+
+.hospitals-color {
+  background-color: #E0FFFF;
+}
+
+.physicians-color {
+  background-color: #7FFFD4;
+}
+
+.insurance-color {
+  background-color: #FFA07A;
+}
+
+.blood-pressure-color {
+  background-color: #F08080;
+}
+
+.heart-disease-color {
+  background-color: #FFA07A;
+}
+
+.stroke-color {
+  background-color: #FF7377;
+}
+
+.cholesterol-color {
+  background-color: #FF5733;
+}
+
+/* Your existing CSS styles */
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure image does not exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Adjust margin between images */
+}
